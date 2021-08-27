@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome | Jasmine's Website </title>
+    <meta name="description" content=" Jasmine Guevara's website. San Diego based web developer. ">
+
+    <meta property="og:image" content= "" />
+    <meta property="og:image:secure_url" content="https://jazzyxgee.github.io/portfolio-website/"/>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    
+    
+</head>
+    
+<body>
+    <div class= 'navigation'>
+        <nav>
+            <ul class ='links'>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+            <div class='button'>
+                <a id="menu-btn" class="icon-btn">+</a>
+            </div>
+            <div id='mobile-menu' class='mobile-menu'>
+                <ul class='mobile-links'>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </div>      
+        </nav>
+    </div>
+
+    <div id = 'home'>
+        <div class='description'>
+            <div class='name-wrap'>            
+                <h1 class='name-heading'>Jasmine Guevara.</h1>
+                <p class ='text-description'>Front-end Web Developer&Designer</p>
+            </div>
+        </div>
+        <div class ='photo'>
+            <img class = 'jasmine-image' src="images/jasmine-image.jpg" alt="Picture of Jasmine Guevara">
+        </div>
+    </div>
+
+    <div  id = 'about'>
+        <div class ='heading-wrap'>
+            <h2 class='sub-heading'>About</h2>
+            <hr class='segment-line'>
+        </div>
+
+        <div class='text-wrap'>
+            <p class ='jasmine-info'>
+                I am from San Diego, CA. I love art, video games, and vehicles. 
+                I enjoy trying new foods and recipes, gardening, and thinking of different business ideas.
+                <br>
+                <br>
+                I am a Front-End Web Developer with experience in Back-End development as well. 
+                I produce creative UI designs and digital media, like content, pictures, and videos. 
+                I use SEO principles to improve rankings on all my websites. 
+                I have an extensive knowledge on vanilla HTML/CSS and Javascript.  
+                I have developed and deployed React.js websites. 
+                In addition to this, I have worked with APIs. 
+                Also, I have worked with databases using SQL, MongoDB, and Java Spring. 
+            </p>
+        </div>
+    </div>
+
+    <div id = 'contact'>
+        <div class ='heading-wrap'>
+            <h2 class='sub-heading'>Contact</h2>
+            <hr class='segment-line'>
+        </div>
+
+        <div class ='contact-grid'>
+
+            <div class ='contact-info'>
+                <h3>Email</h3>
+                <a href="mailto:ejasmineguevara@gmail.com">ejasmineguevara@gmail.com</a>
+                <h3>LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/jasmine-guevara-x">https://www.linkedin.com/in/jasmine-guevara-x</a>
+                <h3>GitHub</h3>
+                <a href="https://www.github.com/jazzyxgee">https://www.github.com/jazzyxgee</a>
+            </div>
+
+            <div class ='contact-section'>
+                <p class='top-line'>Leave a comment or ask me a question.</p>
+                <form action='mailto:ejasmineguevara@gmail.com' name='confirmation-form' method='post'>
+                    <div class='name-email'>
+                        <input class='input-email' type='email' name='email' placeholder='Email' id='email' required>
+                        <input class='input-name' type='text' name='name' placeholder='Name' id='name' required>
+                    </div>
+                    <textarea class = 'input-comment' id='confirmation-text' name='confirmation-text' 
+                    placeholder='Type here...'></textarea>
+                    <div class='button-area'>
+                        <input type='submit' value='Submit' class='submit-button'>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class='copyright'>
+            by jasmine guevara
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
