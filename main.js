@@ -6,7 +6,7 @@ function myFunction() {
     document.getElementById("menu-btn").innerHTML = "+"
   } else {
     x.style.display = "block";
-    document.getElementById("menu-btn").innerHTML = "_"
+    document.getElementById("menu-btn").innerHTML = "x"
   }
 
 }document.getElementById("menu-btn").addEventListener("click", myFunction);

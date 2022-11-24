@@ -15,7 +15,26 @@
     
 <body>
     <div class = 'navigation'>
-
+        <nav>
+            <ul class ='links'>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+            <div class='button'>
+                <a id="menu-btn" class="icon-btn">+</a>
+            </div>
+            <div id='mobile-menu' class='mobile-menu'>
+                <ul class='mobile-links'>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>      
+        </nav>
     </div>
     <div class = 'hero' id = 'hero'>
         <div class="hero-text">
@@ -32,7 +51,7 @@
                     <br>
                     Jasmine is a Web Developer, Designer, and Creator with experience working with
                     multiple brands and various teams. She is from San Diego, CA. She loves art,
-                    video games, and vehicles. Jasmine also enjoys gardening and trying new foods
+                    video games, and animals. Jasmine also enjoys gardening and trying new foods
                     and recipes!
                     <br>
                     <br>
@@ -43,7 +62,10 @@
                     She produces digital media, like content, pictures, and videos as well.
                 </p>
                 <br>
-                <button>Contact Me</button>
+                <form action="https://www.instagram.com/yourgirljasmineg/">
+                    <input type="submit" class="contact-button" value="Connect with me!" />
+                </form>
+
             </div>
             <div class = 'about-img'>
                 <img class = 'jasmine-image' src="images/jasmine-image.jpg" alt="Picture of Jasmine Guevara">
@@ -51,7 +73,7 @@
         </div>
 
     </div>
-    <section class ="projects-section">
+    <section class ="projects-section" id = 'projects'>
         <br>
         <div class = "projects-top">
             <h2>Projects</h2>
@@ -130,6 +152,35 @@
             <h2>Contact</h2>
             <br>
         </div>
+        <div class ='contact-grid'>
+            <div class ='contact-section'>
+                <p class='top-line'>Leave a comment or ask me a question.
+                <br>
+                <br></p>
+                <form action='mailto:ejasmineguevara@gmail.com' name='confirmation-form' method='post'>
+                    <div class='name-email'>
+                        <input class='input-email' type='email' name='email' placeholder='Email' id='email' required>
+                        <input class='input-name' type='text' name='name' placeholder='Name' id='name' required>
+                    </div>
+                    <textarea class = 'input-comment' id='confirmation-text' name='confirmation-text' 
+                    placeholder='Type here...'></textarea>
+                    <div class='button-area'>
+                        <input type='submit' value='Submit' class='submit-button'>
+                    </div>
+                </form>
+            </div>
+            <div class ='contact-info'>
+                <h3>Email</h3>
+                <a href="mailto:ejasmineguevara@gmail.com">ejasmineguevara@gmail.com</a>
+                <h3>LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/jasmine-guevara-x">https://www.linkedin.com/in/jasmine-guevara-x</a>
+                <h3>GitHub</h3>
+                <a href="https://www.github.com/jazzyxgee">https://www.github.com/jazzyxgee</a>
+                <h3>Instagram</h3>
+                <a href="https://www.instagram.com/yourgirljasmineg/">https://www.instagram.com/yourgirljasmineg/</a>
+            </div>
+        </div>
+
     </div>
     <footer>
         <div class='copyright'>
