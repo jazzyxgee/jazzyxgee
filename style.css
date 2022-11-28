@@ -363,7 +363,7 @@ footer {
     }
     .contact-grid{
         display: grid;
-        padding:20px;
+        padding:0px;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-template-areas:
@@ -394,31 +394,28 @@ footer {
     }
     
 }
-@media screen and (min-width: 476px){
+@media screen and (max-width: 476px){
 
+
+    .contact-section{
+        grid-area:form;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        padding: 0px;
+    }
     .contact-info{
         height: 500px;
         grid-area: info;
         display: grid;
         justify-content: center;
         align-content: center;
+        
     }
     .contact-info a{
         color:#000000;
         padding: 10px 0 20px 0;
-    }
-    .contact-info a:hover{
-        color:#525252;
-    }
-    .contact-section{
-        grid-area:form;
-        display: grid;
-        justify-content: center;
-        align-content: center;
-        padding: 10px;
-    }
-    .name-email{
-        padding-bottom:18px;
+      
     }
     .input-name{
         background: #FFFFFF;
@@ -442,6 +439,40 @@ footer {
         border-radius: 10px;
         height: 200px;
         width: 400px;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 400px){
+
+    .contact-info a{
+        color:#000000;
+        padding: 10px 0 20px 0;
+        width: 300px;
+      
+    }
+    .input-name{
+        background: #FFFFFF;
+        border: 0px solid #000000;
+        border-radius: 10px;
+        width: 100px;
+        height: 30px;
+        padding-left:10px;
+    }
+    .input-email{
+        background: #FFFFFF;
+        border: 0px solid #000000;
+        border-radius: 10px;
+        width: 180px;
+        height: 30px;
+        padding-left:10px;
+    }
+    .input-comment{
+        background: #FFFFFF;
+        border: 0px solid #000000;
+        border-radius: 10px;
+        height: 200px;
+        width: 280px;
         padding: 10px;
         font-size: 14px;
     }
