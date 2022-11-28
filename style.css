@@ -185,7 +185,7 @@ nav{
     text-decoration: none;
 }
 .pglinks:hover{
-    color:#A37DC9;
+    color:#f77300;
     text-decoration: none;
 }
 .overlay-text{
@@ -197,7 +197,7 @@ nav{
     font-weight: bold;
 }
 .overlay-text a:hover{
-    color:#FFBFEA;
+    color:#f79137;
     text-decoration: underline;
 }
 .project-text{
@@ -406,7 +406,6 @@ footer {
 
 }
 @media screen and (max-width: 400px){
-
     .contact-info a{
         color:#000000;
         padding: 10px 0 20px 0;
@@ -438,4 +437,19 @@ footer {
         padding: 10px;
         font-size: 14px;
     }
+}
+@media screen and (max-width: 300px){
+    .input-comment{
+        background: #FFFFFF;
+        border: 0px solid #000000;
+        border-radius: 10px;
+        height: 200px;
+        width: 280px;
+        padding: 0px;
+        font-size: 14px;
+    }
+    .hero-text h1{
+        font-size:56px;
+    }
+
 }
