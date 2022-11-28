@@ -396,7 +396,6 @@ footer {
 }
 @media screen and (max-width: 476px){
 
-
     .contact-section{
         grid-area:form;
         display: grid;
@@ -404,44 +403,7 @@ footer {
         align-content: center;
         padding: 0px;
     }
-    .contact-info{
-        height: 500px;
-        grid-area: info;
-        display: grid;
-        justify-content: center;
-        align-content: center;
-        
-    }
-    .contact-info a{
-        color:#000000;
-        padding: 10px 0 20px 0;
-      
-    }
-    .input-name{
-        background: #FFFFFF;
-        border: 0px solid #000000;
-        border-radius: 10px;
-        width: 150px;
-        height: 30px;
-        padding-left:10px;
-    }
-    .input-email{
-        background: #FFFFFF;
-        border: 0px solid #000000;
-        border-radius: 10px;
-        width: 245px;
-        height: 30px;
-        padding-left:10px;
-    }
-    .input-comment{
-        background: #FFFFFF;
-        border: 0px solid #000000;
-        border-radius: 10px;
-        height: 200px;
-        width: 400px;
-        padding: 10px;
-        font-size: 14px;
-    }
+
 }
 @media screen and (max-width: 400px){
 
