@@ -437,6 +437,10 @@ footer {
         padding: 10px;
         font-size: 14px;
     }
+    .navigation{
+        background-color: #fdf7db;
+        height: 90px;
+    }
 }
 @media screen and (max-width: 300px){
     .input-comment{
@@ -450,10 +454,6 @@ footer {
     }
     .hero-text h1{
         font-size:56px;
-    }
-    .navigation{
-        background-color: #fdf7db;
-        height: 90px;
     }
 
 }
