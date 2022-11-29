@@ -451,5 +451,9 @@ footer {
     .hero-text h1{
         font-size:56px;
     }
+    .navigation{
+        background-color: #fdf7db;
+        height: 90px;
+    }
 
 }
